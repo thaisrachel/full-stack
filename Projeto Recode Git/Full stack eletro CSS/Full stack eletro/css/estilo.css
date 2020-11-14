@@ -1,0 +1,50 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formas_pagamento {
+    color:#FF0000;
+    font-weight: bold;
+}
+.menu {
+    background-color: #FF0000;
+}
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.menu ul li{
+    padding: 1px 90px;
+    display: inline-block;
+}
+#rodape {
+    text-align: center;
+}
+
+.preco_original{
+    text-decoration: line-through;
+    font-size: medium;
+}
+.preco{
+    color: #FF0000;
+    font-size: large;
+    font-weight: bold; 
+}
+.produtos {
+    display: grid;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5%;
+  }
+.produtos div {
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    }
+

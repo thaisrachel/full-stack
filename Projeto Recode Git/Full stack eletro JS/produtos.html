@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Full Stack Eletro</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="./JS/funcoes.js"></script>
+</head>
+<body class="grade">
+
+    <!-- Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html"><img src="./Imagens/logo1.png" width="100px"></li>
+            <li><a href="produtos.html">Nossos Produtos</a></li>
+            <li><a href="loja.html"> Nossas Lojas</a></li>
+            <li><a href="contato.html">Fale Conosco </a></li>
+        </ul>     
+    </nav>
+
+    <header>
+        <h1>Produtos</h1>
+    </header>
+    <hr>
+
+        <div class="categorias">
+            <h3>Categorias</h3>
+                <ul class="lista-categorias" onclick="exibir_mensagem(this)">
+                    <li>Geladeiras (3)</li>
+                    <li>Fogões (2)</li>
+                    <li>Microondas (2)</li>
+                    <li>Fritadeira Elétrica (2)</li>
+                    <li>Lavadoura de roupas (2)</li>
+                 <li>Ar Condicionado (1)</li>
+                </ul>
+        </div>
+  
+
+        <section class="produtos">
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                    <img src="./Imagens/produtos/geladeira_barstempinox.jpg"  >
+                    <br>
+                    <p class="descricao">Geladeira Brastemp Frost Free Inverse 443 litros</p>
+                    <hr>
+                    <p class="preco_original">R$ 3.899.90</p>
+                    <p class="preco">R$ 3.549,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/geladeira_brastempbranca.jpg">
+                <br>
+                <p class="descricao">Geladeira Brastemp Frost Free Side Inverse 540 litros Branca</p>
+                <hr>
+                <p class="preco_original">R$ 6.639.90</p>
+                <p class="preco">R$ 4.998,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/geladeira_brastemppreta.png">
+                <br>
+                <p class="descricao">Geladeira Brastemp Frost Free Side Inverse 540,6 litros Preta</p>
+                <hr>
+                <p class="preco_original">R$ 6.999,00</p>
+                <p class="preco">R$ 5.938,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/fogao_brastempinox.jpg">
+                <br>
+                <p class="descricao">Fogão 5 Bocas Brastemp - Acendimento Automático</p>
+                <hr>
+                <p class="preco_original">R$ 1.599,00</p>
+                <p class="preco">R$ 1.349,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/fogao_consulinox.jpg">
+                <br>
+                <p class="descricao">Fogão 5 Bocas Consul - Acendimento Automático Inox</p>
+                <hr>
+                <p class="preco_original">R$ 1.999,00</p>
+                <p class="preco">R$ 1.599,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/microondas_consul.jpg">
+                <br>
+                <p class="descricao">Micro-ondas Consul 32 litros</p>
+                <hr>
+                <p class="preco_original">R$ 999,00</p>
+                <p class="preco">R$ 639,90</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/microondas_lg.jpg">
+                <br>
+                <p class="descricao">Micro-ondas LG easy Clean 30 litros</p>
+                <hr>
+                <p class="preco_original">R$ 799,90</p>
+                <p class="preco">R$ 439,80</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/fritadeira_branca.jpg">
+                <br>
+                <p class="descricao">Fritadeira Airfryer Viva Philips Walita 220v</p>
+                <hr>
+                <p class="preco_original">R$ 1.250,90</p>
+                <p class="preco">R$ 999,00</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/fritadeira_preta.jpg">
+                <br>
+                <p class="descricao">Fritadeira Elétrica Airfryer Viva Black Edition PHILIPS WALITA</p>
+                <hr>
+                <p class="preco_original">R$ 1.399,90</p>
+                <p class="preco">R$ 1.257,50</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/lavaroupas_brastemp.jpg">
+                <br>
+                <p class="descricao">Lavadora de Roupas Brastemp BWK12AB 12Kg</p>
+                <hr>
+                <p class="preco_original">R$ 2.199,00</p>
+                <p class="preco">R$ 1.699,00</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/lavaroupas_samsung.jpg">
+                <br>
+                <p class="descricao">Lavadora de Roupas Samsung 11Kg </p>
+                <hr>
+                <p class="preco_original">R$ 3.899,00</p>
+                <p class="preco">R$ 2.924,10</p>
+            </div>
+            <div class="box_produto" onmouseover="visualiza_info(this)" onmouseout="esconde_info(this)">
+                <img src="./Imagens/produtos/arcondicionado_concul.jpg">
+                <br>
+                <p class="descricao">Ar Condicionado Split Consul 9000 Btus Frio 220v </p>
+                <hr>
+                <p class="preco_original">R$ 1.432,00</p>
+                <p class="preco">R$ 1.299,00</p>
+            </div>
+        </section>
+    </main>
+    
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    
+    <footer id="rodape">
+        <p id="formas_pagamento"><strong>Formas de Pagamento</strong></p>
+        <img src="./Imagens/formas-de-pagamento.png">
+        <p>&copy; Recode Pro</p>
+    </footer>
+</body>
+</html>
